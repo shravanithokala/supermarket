@@ -1,0 +1,16 @@
+
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: shrav@9418
+    url: jdbc:postgresql://localhost:5432/lambton
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+
